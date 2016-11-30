@@ -5,6 +5,7 @@ import {ConnectionService} from './providers/connection-service/connection-servi
 import {HomePage} from './pages/home/home';
 import {MenuTestPage} from './pages/menu-test/menu-test';
 import {GeneratedTestPage} from './pages/generated-test/generated-test';
+import {AlertPage} from './pages/alert/alert';
 
 
 @Component({
@@ -20,7 +21,8 @@ export class MyApp {
     this.pages = [
       {component:HomePage, title: 'Home', icon: 'home'},
       {component:MenuTestPage, title: 'Menu Test', icon: 'cart'},
-      {component:GeneratedTestPage, title: 'Generated Page', icon: 'arrow-forward'}
+      {component:GeneratedTestPage, title: 'Generated Page', icon: 'arrow-forward'},
+      {component:AlertPage, title: 'Alert', icon: 'md-bulb'}
     ];
     platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.
