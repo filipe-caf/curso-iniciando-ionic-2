@@ -1,0 +1,44 @@
+<ion-navbar *navbar>
+  <button menuToggle>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+  <ion-title>Cards</ion-title>
+  <ion-buttons right>
+     <button menuToggle="right">
+       <ion-icon name="menu"></ion-icon>
+     </button>
+  </ion-buttons>
+</ion-navbar>
+
+<ion-content class="card-test">
+  <ion-card>
+    <img src="./../../images/profile.jpg">
+    <ion-card-content>
+      <ion-card-title>
+        Filipe Fernandes
+      </ion-card-title>
+      <p>Olá Mundo</p>
+    </ion-card-content>
+
+    <ion-row no-padding>
+      <ion-col>
+        <button clear small>
+          <ion-icon name="star"></ion-icon>
+          Favorite
+        </button>
+      </ion-col>
+      <ion-col>
+        <button clear small>
+          <ion-icon name="add"></ion-icon>
+          Add
+        </button>
+      </ion-col>
+      <ion-col>
+        <button clear small>
+          <ion-icon name="share"></ion-icon>
+          Share
+        </button>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+</ion-content>
