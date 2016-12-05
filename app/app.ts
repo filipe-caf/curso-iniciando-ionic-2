@@ -6,6 +6,7 @@ import {HomePage} from './pages/home/home';
 import {MenuTestPage} from './pages/menu-test/menu-test';
 import {GeneratedTestPage} from './pages/generated-test/generated-test';
 import {AlertPage} from './pages/alert/alert';
+import {ButtonTestPage} from './pages/button-test/button-test';
 
 
 @Component({
@@ -22,7 +23,8 @@ export class MyApp {
       {component:HomePage, title: 'Home', icon: 'home'},
       {component:MenuTestPage, title: 'Menu Test', icon: 'cart'},
       {component:GeneratedTestPage, title: 'Generated Page', icon: 'arrow-forward'},
-      {component:AlertPage, title: 'Alert', icon: 'md-bulb'}
+      {component:AlertPage, title: 'Alert', icon: 'md-bulb'},
+      {component:ButtonTestPage, title: 'button Test', icon: 'md-pricetag'}
     ];
     platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.
